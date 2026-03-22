@@ -4,7 +4,7 @@
 #include <gem5/m5ops.h>
 
 
-#define SEQ_LEN 128
+#define SEQ_LEN 64
 #define D_K 64
 #define SCALE 0.125f  // 1/sqrt(64)
 

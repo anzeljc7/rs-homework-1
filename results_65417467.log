@@ -1,0 +1,40 @@
+make: Entering directory '/d/hpc/home/ta3667/rs-homework-1/workload'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/d/hpc/home/ta3667/rs-homework-1/workload'
+Running MinorCPU...
+Running O3CPU...
+warn: The `CustomResource` class is deprecated. Please use an `AbstractResource` subclass instead.
+Global frequency set at 1000000000000 ticks per second
+src/arch/riscv/isa.cc:321: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/stats/storage.hh:278: warn: Bucket size (4) does not divide range [1:32] into equal-sized buckets. Rounding up.
+src/base/stats/storage.hh:278: warn: Bucket size (4) does not divide range [1:8] into equal-sized buckets. Rounding up.
+src/base/remote_gdb.cc:418: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.0
+gem5 compiled Jan 11 2026 20:35:02
+gem5 started Mar 22 2026 17:07:54
+gem5 executing on wn101.arnes.si, pid 2871425
+command line: /d/hpc/projects/FRI/GEM5/gem5_workspace/gem5/build/RISCV/gem5.opt --outdir=m5out_o3 task1.py --cpu o3
+
+info: Standard input is not a terminal, disabling listeners.
+Zaganjam simulacijo s procesorjem: o3 ...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1127: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/d/hpc/home/ta3667/rs-homework-1/workload/scaled_dot_product_adv.bin'
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+attn[0] = 0.006353
+attn[1] = 0.006515
+attn[2] = 0.006682
+attn[3] = 0.006852

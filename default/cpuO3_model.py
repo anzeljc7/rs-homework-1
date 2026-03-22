@@ -146,8 +146,8 @@ class O3CPUCore(RiscvO3CPU):
         # - RENAME STAGE
         # ****************************
         self.numROBEntries = 128
-        self.numPhysIntRegs = 80
-        self.numPhysFloatRegs = 64
+        self.numPhysIntRegs = 128 #80
+        self.numPhysFloatRegs = 128
         self.renameWidth = 2
         self.numRobs = 2000
         self.numPhysVecPredRegs = 32

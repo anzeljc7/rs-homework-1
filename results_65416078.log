@@ -1,0 +1,154 @@
+make: Entering directory '/d/hpc/home/ta3667/rs-homework-1/workload'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/d/hpc/home/ta3667/rs-homework-1/workload'
+Running MinorCPU...
+warn: The `CustomResource` class is deprecated. Please use an `AbstractResource` subclass instead.
+Global frequency set at 1000000000000 ticks per second
+src/arch/riscv/isa.cc:321: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdAdd
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdAddAcc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdAlu
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdCmp
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdCvt
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdMisc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdMult
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdMultAcc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdMatMultAcc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdShift
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdShiftAcc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdDiv
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdSqrt
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatAdd
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatAlu
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatCmp
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatCvt
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatDiv
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatMisc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatMult
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatMultAcc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatMatMultAcc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatSqrt
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdReduceAdd
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdReduceAlu
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdReduceCmp
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatReduceAdd
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatReduceCmp
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdAes
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdAesMix
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdSha1Hash
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdSha1Hash2
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdSha256Hash
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdSha256Hash2
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdShaSigma2
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdShaSigma3
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdSha3
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdSm4e
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdCrc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdPredAlu
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdDotProd
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass Matrix
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass MatrixMov
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass MatrixOP
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass InstPrefetch
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdExt
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdFloatExt
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdConfig
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdBf16Add
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdBf16Cmp
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdBf16Cvt
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdBf16DotProd
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdBf16MatMultAcc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdBf16Mult
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdBf16MultAcc
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass Bf16Cvt
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass System
+src/base/remote_gdb.cc:418: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.0
+gem5 compiled Jan 11 2026 20:35:02
+gem5 started Mar 22 2026 15:01:01
+gem5 executing on wn101.arnes.si, pid 2336329
+command line: /d/hpc/projects/FRI/GEM5/gem5_workspace/gem5/build/RISCV/gem5.opt --outdir=m5out_minor task1a.py --cpu minor
+
+info: Standard input is not a terminal, disabling listeners.
+Zaganjam simulacijo s procesorjem: minor ...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1127: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/d/hpc/home/ta3667/rs-homework-1/workload/scaled_dot_product.bin'
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+attn[0] = 0.001056
+attn[1] = 0.001083
+attn[2] = 0.001111
+attn[3] = 0.001139
+Running O3CPU...
+warn: The `CustomResource` class is deprecated. Please use an `AbstractResource` subclass instead.
+Global frequency set at 1000000000000 ticks per second
+src/arch/riscv/isa.cc:321: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/stats/storage.hh:278: warn: Bucket size (4) does not divide range [1:32] into equal-sized buckets. Rounding up.
+src/base/stats/storage.hh:278: warn: Bucket size (4) does not divide range [1:8] into equal-sized buckets. Rounding up.
+src/base/remote_gdb.cc:418: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.0
+gem5 compiled Jan 11 2026 20:35:02
+gem5 started Mar 22 2026 15:01:05
+gem5 executing on wn101.arnes.si, pid 2336657
+command line: /d/hpc/projects/FRI/GEM5/gem5_workspace/gem5/build/RISCV/gem5.opt --outdir=m5out_o3 task1a.py --cpu o3
+
+info: Standard input is not a terminal, disabling listeners.
+Zaganjam simulacijo s procesorjem: o3 ...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1127: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/d/hpc/home/ta3667/rs-homework-1/workload/scaled_dot_product.bin'
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+attn[0] = 0.001056
+attn[1] = 0.001083
+attn[2] = 0.001111
+attn[3] = 0.001139
