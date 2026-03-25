@@ -146,8 +146,8 @@ class O3CPUCore(RiscvO3CPU):
         # - RENAME STAGE
         # ****************************
         self.numROBEntries = 128
-        self.numPhysIntRegs = 128 #80
-        self.numPhysFloatRegs = 128
+        self.numPhysIntRegs = 80
+        self.numPhysFloatRegs = 64
         self.renameWidth = 2
         self.numRobs = 2000
         self.numPhysVecPredRegs = 32
@@ -312,5 +312,3 @@ class O3CPU(BaseCPUProcessor):
 class RISCV_O3_CPU(O3CPU):
     def __init__(self):
         super().__init__()
-
-
