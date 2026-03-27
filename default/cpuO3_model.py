@@ -48,6 +48,10 @@ from m5.objects.IQUnit import IQUnit
 
 from m5.objects.BranchPredictor import BranchPredictor, LTAGE
 
+import os
+
+
+
 
 
 
@@ -124,7 +128,32 @@ class O3CPUCore(RiscvO3CPU):
         # -- BPU SELECTION
         # ****************************
         # predictors from src/cpu/pred/BranchPredictor.py
-        self.branchPred = BranchPredictor(conditionalBranchPred=LTAGE(numThreads=self.numThreads))
+
+        from m5.objects.BranchPredictor import TAGE, LocalBP, TournamentBP, BiModeBP
+        
+        #self.branchPred = BranchPredictor(conditionalBranchPred=LTAGE(numThreads=self.numThreads))
+        bp_kind = os.getenv("BP_KIND", "TAGE")
+
+        if bp_kind == "TAGE":
+            self.branchPred = BranchPredictor(
+                conditionalBranchPred=TAGE(numThreads=self.numThreads)
+            )
+        elif bp_kind == "LocalBP":
+            self.branchPred = BranchPredictor(
+                conditionalBranchPred=LocalBP(numThreads=self.numThreads)
+            )
+        elif bp_kind == "TournamentBP":
+            self.branchPred = BranchPredictor(
+                conditionalBranchPred=TournamentBP(numThreads=self.numThreads)
+            )
+        elif bp_kind == "BiModeBP":
+            self.branchPred = BranchPredictor(
+                conditionalBranchPred=BiModeBP(numThreads=self.numThreads)
+            )
+        else:
+            raise ValueError(f"Unknown BP_KIND: {bp_kind}")
+
+
         # ****************************
         # - FETCH STAGE
         # ****************************
@@ -145,7 +174,13 @@ class O3CPUCore(RiscvO3CPU):
         # ****************************
         # - RENAME STAGE
         # ****************************
-        self.numROBEntries = 128
+        #self.numROBEntries = 128
+        rob_size = int(os.getenv("ROB_SIZE", "128"))
+        self.numROBEntries = rob_size
+
+
+
+
         self.numPhysIntRegs = 80
         self.numPhysFloatRegs = 64
         self.renameWidth = 2
