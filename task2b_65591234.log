@@ -1,0 +1,103 @@
+make: Entering directory '/d/hpc/home/tb1565/rs-homework-1/workload'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/d/hpc/home/tb1565/rs-homework-1/workload'
+Running TAGE ...
+TypeError: SimObject.__init__() takes 1 positional argument but 2 were given
+Error setting param O3CPUCore.branchPred to <orphan TAGE>
+
+
+At:
+  src/python/m5/params/base_params.py(239): convert
+  src/python/m5/SimObject.py(906): __setattr__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(136): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(289): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(310): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(331): __init__
+  default/cpu_benchmark.py(19): <module>
+  src/python/m5/main.py(687): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.0
+gem5 compiled Jan 11 2026 20:35:02
+gem5 started Mar 27 2026 19:16:53
+gem5 executing on wn101.arnes.si, pid 645030
+command line: /d/hpc/projects/FRI/GEM5/gem5_workspace/gem5/build/RISCV/gem5.opt --outdir=m5out_TAGE default/cpu_benchmark.py
+
+info: Standard input is not a terminal, disabling listeners.
+srun: error: wn101: task 0: Exited with exit code 1
+Running LocalBP ...
+TypeError: SimObject.__init__() takes 1 positional argument but 2 were given
+Error setting param O3CPUCore.branchPred to <orphan LocalBP>
+
+
+At:
+  src/python/m5/params/base_params.py(239): convert
+  src/python/m5/SimObject.py(906): __setattr__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(138): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(289): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(310): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(331): __init__
+  default/cpu_benchmark.py(19): <module>
+  src/python/m5/main.py(687): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.0
+gem5 compiled Jan 11 2026 20:35:02
+gem5 started Mar 27 2026 19:16:54
+gem5 executing on wn101.arnes.si, pid 645347
+command line: /d/hpc/projects/FRI/GEM5/gem5_workspace/gem5/build/RISCV/gem5.opt --outdir=m5out_LocalBP default/cpu_benchmark.py
+
+info: Standard input is not a terminal, disabling listeners.
+srun: error: wn101: task 0: Exited with exit code 1
+Running TournamentBP ...
+TypeError: SimObject.__init__() takes 1 positional argument but 2 were given
+Error setting param O3CPUCore.branchPred to <orphan TournamentBP>
+
+
+At:
+  src/python/m5/params/base_params.py(239): convert
+  src/python/m5/SimObject.py(906): __setattr__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(140): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(289): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(310): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(331): __init__
+  default/cpu_benchmark.py(19): <module>
+  src/python/m5/main.py(687): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.0
+gem5 compiled Jan 11 2026 20:35:02
+gem5 started Mar 27 2026 19:16:55
+gem5 executing on wn101.arnes.si, pid 645666
+command line: /d/hpc/projects/FRI/GEM5/gem5_workspace/gem5/build/RISCV/gem5.opt --outdir=m5out_TournamentBP default/cpu_benchmark.py
+
+info: Standard input is not a terminal, disabling listeners.
+srun: error: wn101: task 0: Exited with exit code 1
+Running BiModeBP ...
+TypeError: SimObject.__init__() takes 1 positional argument but 2 were given
+Error setting param O3CPUCore.branchPred to <orphan BiModeBP>
+
+
+At:
+  src/python/m5/params/base_params.py(239): convert
+  src/python/m5/SimObject.py(906): __setattr__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(142): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(289): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(310): __init__
+  /d/hpc/home/tb1565/rs-homework-1/default/cpuO3_model.py(331): __init__
+  default/cpu_benchmark.py(19): <module>
+  src/python/m5/main.py(687): main
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.0
+gem5 compiled Jan 11 2026 20:35:02
+gem5 started Mar 27 2026 19:16:56
+gem5 executing on wn101.arnes.si, pid 645984
+command line: /d/hpc/projects/FRI/GEM5/gem5_workspace/gem5/build/RISCV/gem5.opt --outdir=m5out_BiModeBP default/cpu_benchmark.py
+
+info: Standard input is not a terminal, disabling listeners.
+srun: error: wn101: task 0: Exited with exit code 1

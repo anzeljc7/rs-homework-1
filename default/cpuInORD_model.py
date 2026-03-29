@@ -283,4 +283,3 @@ class InOrdCPU(BaseCPUProcessor):
 class RiscV_InOrder_CPU(InOrdCPU):
     def __init__(self):
         super().__init__()
-

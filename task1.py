@@ -23,7 +23,7 @@ args = parser.parse_args()
 # Izbira procesorja
 processor = RiscV_InOrder_CPU() if args.cpu == "minor" else RISCV_O3_CPU()
 
-cache_hierarchy = PrivateL1CacheHierarchy(l1d_size="64KiB", l1i_size="64KiB")
+cache_hierarchy = PrivateL1CacheHierarchy(l1d_size="32KiB", l1i_size="32KiB")
 memory = SingleChannelDDR3_1600("7GiB")
 
 # Sestava računalnika (Board)
@@ -41,6 +41,5 @@ binary = CustomResource(pot_do_binarne)
 board.set_se_binary_workload(binary)
 
 # Priprava in zagon simulatorja
-print(f"Zaganjam simulacijo s procesorjem: {args.cpu} ...")
 simulator = Simulator(board=board)
 simulator.run()
